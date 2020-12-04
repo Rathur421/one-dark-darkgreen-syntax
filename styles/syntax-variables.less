@@ -4,9 +4,9 @@
 
 // General colors
 @syntax-text-color:            @syntax-fg;
-@syntax-cursor-color:          @syntax-accent;
+@syntax-cursor-color:          darkgreen;
 @syntax-selection-color:       lighten(@syntax-background-color, 10%);
-@syntax-selection-flash-color: @syntax-accent;
+@syntax-selection-flash-color: @syntax-cursor-color;
 @syntax-background-color:      @syntax-bg;
 
 // Guide colors
@@ -16,7 +16,7 @@
 
 // For find and replace markers
 @syntax-result-marker-color:          fade(@syntax-accent, 24%);
-@syntax-result-marker-color-selected: @syntax-accent;
+@syntax-result-marker-color-selected: @syntax-cursor-color;
 
 // Gutter colors
 @syntax-gutter-text-color:                @syntax-gutter;
